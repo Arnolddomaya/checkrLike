@@ -1,0 +1,167 @@
+@import url("dropdown.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //background-image: image-url('checkr_header_industries_blue.gif');
+  //background-size:cover;
+  background-color: #3e70a1;
+  font-family: 'Montserrat', Georgia, sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.page {
+	display: flex;
+  //flex-flow: wrap;
+  flex-direction: column;
+	width: 90%;
+  margin-top: 10px;
+}
+
+.top {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.top li {
+  display: inline;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.top a {
+    color: white;
+    text-decoration: none;
+}
+
+.top a:hover {
+  color: lightgrey;
+}
+
+.menuglobal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuleft{
+  display: flex;
+  align-items: stretch;
+}
+
+.logo{
+  margin:auto;
+  background: image-url('logo.svg') 50% 50%/cover no-repeat;
+  width: 130px;
+  height: 33px;
+  left: 0;
+  font-size: 0;
+}
+
+.menu {
+  display: flex;
+  margin:auto;
+  
+}
+
+.menuright{
+  display: flex;
+  margin:auto;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.menuright li {
+  display: inline;
+}
+
+.menuright a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuright a:hover {
+  color: lightgrey;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.lefttext{
+
+}
+
+.explore{
+
+}
+
+.right{
+
+}
+
+.video{
+
+}
+
+.button{
+    background-color: #E0BE2D;
+    border: none;
+    color: #314B68;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    border-radius: 5px;
+	padding: 2.2rem 3.6rem;
+    letter-spacing: 0.1em;
+    margin-top: 1.4em;
+    text-decoration: none;
+    line-height: 1.4;
+    cursor:pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+.getstarted{
+    background-color: transparent;
+    border: 2px;
+    border-color: #E0BE2D;
+    border-style:solid;
+    color: #314B68;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 1.5rem 2.3rem 1.5rem;
+    letter-spacing: 0.1em;
+    margin-top: 1.4em;
+    text-decoration: none;
+    line-height: 1.4;
+    cursor:pointer;
+}
+
+.getstarted:hover{
+
+	background-color: #E0BE2D;
+}

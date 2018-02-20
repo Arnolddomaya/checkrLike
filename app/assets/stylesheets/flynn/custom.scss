@@ -1,0 +1,41 @@
+
+center {
+  display: flex;
+  flex-direction: column;
+  weight : 20%;
+  margin: 0 10px;
+}
+.mnav {
+
+
+  ul{
+    display: flex;
+    flex-direction: row;
+
+    background-color:DarkSeaGreen;
+    list-style-type: none;
+    align-items: flex-start;
+    padding-bottom:  3%;
+
+
+    li{
+      display: block;
+      color: rgb(27, 180, 94);
+      border: 1px solid DarkGoldenrod;
+      padding: 2% 2%;
+      padding-bottom: 3%;
+
+    }
+
+    li.items{
+      color: rgb(27, 180, 94);
+    }
+    li.spacer{
+      padding: 0% 10%;
+    }
+
+  }
+
+
+
+}
