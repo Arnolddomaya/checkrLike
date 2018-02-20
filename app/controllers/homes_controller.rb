@@ -4,6 +4,7 @@ class HomesController < ApplicationController
 
   end
   def checkr
+  
   end
 
   def flynn
